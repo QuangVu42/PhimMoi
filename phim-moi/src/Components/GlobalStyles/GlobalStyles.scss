@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+
+/* -------------------------------- settings --------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    line-height: 1.5;
+    font-size: 1.6rem;
+    text-rendering: optimizeLegibility;
+}
+input,button{
+    outline: none;
+    border: none;
+}
+a[href]{
+    text-decoration: none;
+}
+:root{
+    --yelow: #feb60a;
+    --red: #ff0062;
+    --blue: #00dbf9;
+    --violet: #da00f7;
+    --white: #fff;
+    --black: #000000bd;
+    --grey: #8080801f;
+    --background-black:rgba(0,0,0,.87);   
+}
+ul,li{
+    list-style-type:none;
+    text-transform: capitalize;
+}
+h1{
+    text-transform: capitalize;
+    font-size: 3.2rem;
+    @media (min-width: 768px) and (max-width:1024px){
+        font-size: 3rem;
+    }
+    @media (max-width: 767px) {
+        font-size: 2rem;
+    }
+}
+h2{
+    text-transform: capitalize;
+    font-size: 3rem;
+    @media (min-width: 768px) and (max-width:1024px){
+        font-size: 2.5rem;
+    }
+    @media (max-width: 767px) {
+        font-size: 2.3rem;
+    }
+}
+#container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    @media (min-width: 1200px){
+        max-width: 1170px;
+    }
+    @media (min-width: 992px){
+        max-width: 960px;
+    }
+    @media (min-width: 768px){
+        max-width: 720px;
+    }
+    @media (min-width: 576px){
+        max-width: 540px;
+    }
+    @media (min-width: 0px) {
+        max-width: 300px;
+    }
+}
