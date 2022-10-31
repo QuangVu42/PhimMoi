@@ -1,3 +1,4 @@
+@import 'normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
 
@@ -60,19 +61,19 @@ h2{
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
-    @media (min-width: 1200px){
-        max-width: 1170px;
-    }
-    @media (min-width: 992px){
-        max-width: 960px;
-    }
-    @media (min-width: 768px){
-        max-width: 720px;
-    }
-    @media (min-width: 576px){
-        max-width: 540px;
-    }
-    @media (min-width: 0px) {
-        max-width: 300px;
-    }
+    // @media (min-width: 1200px){
+    //     max-width: 1170px;
+    // }
+    // @media (min-width: 992px){
+    //     max-width: 960px;
+    // }
+    // @media (min-width: 768px){
+    //     max-width: 720px;
+    // }
+    // @media (min-width: 576px){
+    //     max-width: 540px;
+    // }
+    // @media (min-width: 0px) {
+    //     max-width: 300px;
+    // }
 }
